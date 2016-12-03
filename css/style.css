@@ -39,10 +39,8 @@ p {
 /** NAV **/
 
 nav.horizontal-page-navigation ul {
-    list-style-type: none;
     margin: 0;
     padding: 8px 16px;
-    background-color: #f1f1f1;
 }
 
 
@@ -51,21 +49,10 @@ nav.horizontal-page-navigation {
     background-color: #ebebeb;
     text-align: center;
     position: fixed;
-    top:0;
-    left:0;
 }
 
 nav.horizontal-page-navigation li {
     display: inline-block;
-    text-align: center;
-    padding: 8px 16px;
-}
-
-nav.horizontal-page-navigation a {
-    color: #000;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
 }
 
 nav.horizontal-page-navigation li a {
@@ -77,8 +64,8 @@ nav.horizontal-page-navigation li a {
 }
 
 nav.horizontal-page-navigation li a:hover {
-    color: #c00;
+    color: white;
     text-align:center;
-    background-color: #fff;
+    background-color: #c00;
 }
 
